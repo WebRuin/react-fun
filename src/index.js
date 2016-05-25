@@ -1,14 +1,4 @@
-// require("./alert.js");
-
-// import greetings from './robot.js'
-// document.write(greetings("Affirmative", "Dave"));
-
-import styles from './app.css'
-
-let element = `
-  <div class="element">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur laudantium recusandae itaque libero velit minus ex reiciendis veniam. Eligendi modi sint delectus beatae nemo provident ratione maiores, voluptatibus a tempore!</p>
-  </div>
-`
-
-document.write(element);
+// Exported static site renderer:
+module.exports = function render(locals, callback) {
+  callback(null, '<html>Hello!</html>');
+};
