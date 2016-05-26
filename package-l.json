@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack-dev-server --content-base build/ && /opt/google/chrome/google-chrome --enable-plugins index.html"
   },
   "keywords": [],
   "author": "",
