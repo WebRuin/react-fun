@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base build/ && /opt/google/chrome/google-chrome --enable-plugins index.html",
-    "heroku-postbuild": "web npm start"
+    "start": "webpack-dev-server --content-base build/ && /opt/google/chrome/google-chrome --enable-plugins index.html"
   },
   "keywords": [],
   "author": "",
